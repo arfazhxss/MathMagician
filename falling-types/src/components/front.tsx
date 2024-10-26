@@ -16,27 +16,27 @@ export default function FrontPage() {
         {
             title: "Solve Falling Equations",
             description: "Equations will fall from the top of the screen. Solve them quickly before they reach the bottom!",
-            image: "/placeholder.svg?height=200&width=300"
+            image: "/progressLevel.png"
         },
         {
             title: "Type Your Answers",
             description: "Use the input field at the bottom of the screen to type your answers. Press Enter or click 'Submit' to check your solution.",
-            image: "/placeholder.svg?height=200&width=300"
+            image: "/progressLevel.png?height=200&width=300"
         },
         {
             title: "Score Points",
             description: "Each correct answer earns you points. The faster you solve, the higher your score!",
-            image: "/placeholder.svg?height=200&width=300"
+            image: "/progressLevel.png?height=200&width=300"
         },
         {
             title: "Beat the Clock",
             description: "You have 30 seconds per level. Solve as many equations as you can before time runs out!",
-            image: "/placeholder.svg?height=200&width=300"
+            image: "/progressLevel.png?height=200&width=300"
         },
         {
             title: "Level Up",
             description: "As you progress, equations become more challenging. Can you reach the highest level?",
-            image: "/placeholder.svg?height=200&width=300"
+            image: "/progressLevel.png?height=200&width=300"
         }
     ]
 
@@ -49,7 +49,7 @@ export default function FrontPage() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.5 }}
                 >
-                    Math Falling Game
+                    Math Magician
                 </motion.h1>
                 <motion.p
                     className="text-xl"

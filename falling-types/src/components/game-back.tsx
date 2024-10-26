@@ -88,7 +88,7 @@ export default function Component() {
 
     const getLevelConfig = useCallback((level: Level) => {
         switch (level) {
-            case 1: return { time: 30 }; // Updated time for level 1
+            case 1: return { time: 30 };
             case 2: return { time: 60 };
             case 3: return { time: 60 };
         }
