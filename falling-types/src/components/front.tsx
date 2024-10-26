@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
 import { useRouter, redirect } from 'next/navigation'
+import Image from 'next/image'
 
 export default function FrontPage() {
     const [currentTutorial, setCurrentTutorial] = useState(0)
@@ -103,9 +104,11 @@ export default function FrontPage() {
                                         <DialogDescription>Learn how to play the Math Falling Game</DialogDescription>
                                     </DialogHeader>
                                     <div className="mt-4">
-                                        <img
+                                        <Image
                                             src={tutorials[currentTutorial].image}
                                             alt={tutorials[currentTutorial].title}
+                                            width={600}
+                                            height={300}
                                             className="w-full h-48 object-cover rounded-lg mb-4"
                                         />
                                         <h3 className="text-xl font-semibold mb-2">{tutorials[currentTutorial].title}</h3>

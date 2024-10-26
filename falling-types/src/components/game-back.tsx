@@ -74,13 +74,9 @@ export default function Component() {
 
     const playSound = (soundName: string) => {
         if (soundEffectsRef.current[soundName]) {
-            try {
-                soundEffectsRef.current[soundName].play().catch(error => {
-                    console.error(`Error playing ${soundName}:`, error)
-                })
-            } catch (error) {
+            soundEffectsRef.current[soundName].play().catch(error => {
                 console.error(`Error playing ${soundName}:`, error)
-            }
+            })
         } else {
             console.error(`Sound not found: ${soundName}`)
         }
@@ -88,8 +84,8 @@ export default function Component() {
 
     const getLevelConfig = useCallback((level: Level) => {
         switch (level) {
-            case 1: return { time: 30 };
-            case 2: return { time: 60 };
+            case 1: return { time: 60 };
+            case 2: return { time: 120 };
             case 3: return { time: 60 };
         }
     }, []);
