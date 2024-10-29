@@ -1,5 +1,5 @@
-# Math Falling Game Documentation
-The Math Falling Game is an interactive game where users solve math equations that fall from the top of the screen. The game progresses through different levels, increasing in difficulty. Each correct answer earns the user points and progresses them through levels, while each level has a time limit that counts down. The player can choose to end the game manually or play until the timer runs out.
+# Math Falling Game (a.k.a MathMagician) Documentation
+MathMagician is an interactive game where users solve math equations that fall from the top of the screen. The game progresses through different levels, increasing in difficulty. Each correct answer earns the user points and progresses them through levels, while each level has a time limit that counts down. The player can choose to end the game manually or play until the timer runs out.
 
 ## UVEC Win 🏆
 ![wec24](https://github.com/user-attachments/assets/7576a455-3c70-4521-aa04-72eac693bf0f)
